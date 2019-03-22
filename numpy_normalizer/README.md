@@ -16,9 +16,9 @@ Linux (ArchLinux)
 
 ### Compilation
 
-Without debugging : g++ -o nn main.cpp -I./include/ -L/usr/local/lib/ -lcnpy -lz --std=c++14
+Without debugging : ```g++ -o nn main.cpp -I./include/ -L/usr/local/lib/ -lcnpy -lz --std=c++14```
 
-With debugging : g++ -g -o nn main.cpp -I./include/ -L/usr/local/lib/ -lcnpy -lz --std=c++14
+With debugging : ```g++ -g -o nn main.cpp -I./include/ -L/usr/local/lib/ -lcnpy -lz --std=c++14```
 
 The debugging line is used with valgrind.
 
@@ -30,5 +30,4 @@ In order to avoid a dynamic library linking during the execution of the program,
 ### Additional links
 
 - [cnpy library](https://github.com/rogersce/cnpy)
-- [Face Vertex mesh](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_mes\
-hes)
+- [Face Vertex mesh](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_meshes)
